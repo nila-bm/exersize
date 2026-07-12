@@ -25,5 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home),
     path('blog/',include('blog.urls')),
-
-]
+    path('support/',include('support.urls'))
+    ]
